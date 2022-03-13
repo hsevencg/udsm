@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>UDAMESA</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/3547cb3c16.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+          <a href="index.html"><img class="Uda" src="images/Udamesas.png" </a>
+           <div class="nav-links" id="navlinks">
+             <i class="fa fa-xmark" onclick="hidemenu()"></i>
+             <ul>
+               <li><a href="#">HOME</a></li>
+               <li><a href="#">ABOUT</a></li>
+               <li><a href="#">GALLERY</a></li>
+               <li><a href="#">BLOGS</a></li>
+               <li><a href="#">CONTACTS</a></li>
+             </ul>
+
+           </div>
+        <i class="fa fa-bars" onclick="showmenu()"></i>
+      </nav>
+        <h1>About Us</h1>
+
+    </section>
+    <!-- about us -->
+<section class="about-us">
+  <div class="row">
+    <div class="about-col">
+      <h1>UDAMESA FOUNDATION</h1>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- Footer -->
+<section class="footer">
+  <h4>About Us</h4>
+  <p>In porta sapien augue, non blandit enim dapibus non. In condimentum libero id neque convallis <br> in hendrerit augue feugiat. Nunc id interdum odio</p>
+    <div class="icons">
+      <i class="fa-brands fa-facebook"></i>
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-linkedin-in"></i>
+
+
+
+    </div>
+    <p>copyright@2022 <i class="fa-solid fa-heart"> </i></i> Udamesa</p>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+          <!-- javascript for toggle menu -->
+    <script type="text/javascript">
+        var navlinks = document.getElementById("navlinks");
+        function showmenu(){
+          navlinks.style.right = "0";
+        }
+        function hidemenu(){
+          navlinks.style.right = "-200px";
+        }
+    </script>
+  </body>
+
+
+</html>
